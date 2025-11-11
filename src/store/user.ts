@@ -17,6 +17,15 @@ interface Member {
     account_number: string;
     name: string;
   }[];
+  next_of_kin: {
+    first_name: string;
+    last_name: string;
+    relationship: string;
+    gender: string;
+    phone: string;
+    email: string;
+    address: string;
+  }[];
   created_at: string;
   updated_at: string;
 }

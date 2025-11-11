@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { FormControl, FormLabel, Grid, Input, Select } from "@chakra-ui/react";
-import { states, unit } from "../../../../api/data";
+import { states } from "../../../../api/data";
 
 type FieldType = "text" | "select" | "date";
 
@@ -285,11 +285,6 @@ export const Guarantor: React.FC<GuarantorProps> = ({
   >([]);
   const [customUnitInput, setCustomUnitInput] = useState("");
 
-  const unitOptions = unit.map((unitName) => ({
-    value: unitName,
-    label: unitName,
-  }));
-
   const validateForm = (): boolean => {
     return personalInfoFields.every((field) => {
       if (field.required) {
@@ -372,7 +367,6 @@ export const Guarantor: React.FC<GuarantorProps> = ({
               field.name === "state_of_origin" ? stateOptions : undefined
             }
             lgaOptions={field.name === "lga" ? lgaOptions : undefined}
-            unitOptions={field.name === "unit" ? unitOptions : undefined}
           />
         ))}
         {formData.unit === "OTHER" && (
