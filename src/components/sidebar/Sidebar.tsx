@@ -252,7 +252,6 @@ const SideBar = ({ children }: { children: ReactNode }) => {
           <LogOut color="white" />
           {!collapsed && <span className="text-white">Log Out</span>}
         </Link>
-        <p className="italic text-center pt-6 text-gray-50">Coop Link</p>
         {/* <Link
           to="/settings/profile"
           className={`${currentPath === "/settings/profile"
