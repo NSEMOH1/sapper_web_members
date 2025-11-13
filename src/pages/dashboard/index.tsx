@@ -91,14 +91,14 @@ const Dashboard = () => {
                   </p>
                 </div>
                 <div
-                  style={{ background: "#53B175" }}
+                  style={{ background: "#fa8072" }}
                   className="p-4 py-6 text-white w-full rounded-xl shadow-lg"
                 >
                   <div className="flex items-center justify-between">
                     <p className="text-xs font-bold">Emergency Loan</p>
                     <div
                       style={{
-                        background: "#53B175",
+                        background: "#fa8072",
                         border: "1px solid gray",
                       }}
                       className={`inline-flex p-1 rounded-full`}
@@ -111,14 +111,14 @@ const Dashboard = () => {
                   </p>
                 </div>
                 <div
-                  style={{ background: "#444012" }}
+                  style={{ background: "#133337" }}
                   className="p-4 py-6 text-white w-full rounded-xl shadow-lg"
                 >
                   <div className="flex items-center justify-between">
                     <p className="text-xs font-bold">Commodity Loan</p>
                     <div
                       style={{
-                        background: "#444012",
+                        background: "#133337",
                         border: "1px solid gray",
                       }}
                       className={`inline-flex p-1 rounded-full`}
@@ -129,14 +129,14 @@ const Dashboard = () => {
                   <p className="text-lg font-bold">COMING SOON</p>
                 </div>
                 <div
-                  style={{ background: "#006980" }}
+                  style={{ background: "#065535" }}
                   className="p-4 py-6 text-white w-full rounded-xl shadow-lg"
                 >
                   <div className="flex items-center justify-between">
                     <p className="text-xs font-bold">Housing Loan</p>
                     <div
                       style={{
-                        background: "#006980",
+                        background: "#065535",
                         border: "1px solid gray",
                       }}
                       className={`inline-flex p-1 rounded-full`}
@@ -147,14 +147,14 @@ const Dashboard = () => {
                   <p className="text-lg font-bold">COMING SOON</p>
                 </div>
                 <div
-                  style={{ background: "#EBB9A1" }}
+                  style={{ background: "#003366" }}
                   className="p-4 py-6 text-white w-full rounded-xl shadow-lg"
                 >
                   <div className="flex items-center justify-between">
                     <p className="text-xs font-bold">Home Appliances</p>
                     <div
                       style={{
-                        background: "#EBB9A1",
+                        background: "#003366",
                         border: "1px solid gray",
                       }}
                       className={`inline-flex p-1 rounded-full`}
@@ -172,7 +172,7 @@ const Dashboard = () => {
               <Card width="full">
                 <CardBody>
                   <p className="flex gap-2 text-sm font-thin items-center">
-                    <Send color="#7763EA" size={15} />
+                    <Send color="#6A7814" size={15} />
                     Transfer
                   </p>
                   <div className="flex gap-2 items-center">
@@ -183,7 +183,7 @@ const Dashboard = () => {
                     />
                     <div
                       style={{
-                        background: "#7763EA",
+                        background: "#6A7814",
                         border: "1px solid white",
                       }}
                       className={`inline-flex p-1 rounded-full`}
@@ -199,7 +199,7 @@ const Dashboard = () => {
               <Card width="full">
                 <CardBody>
                   <p className="flex gap-2 text-sm font-thin items-center">
-                    <HandCoins color="#7763EA" size={15} />
+                    <HandCoins color="#6A7814" size={15} />
                     Deposit
                   </p>
                   <div className="flex gap-2 items-center">
@@ -210,7 +210,7 @@ const Dashboard = () => {
                     />
                     <div
                       style={{
-                        background: "#7763EA",
+                        background: "#6A7814",
                         border: "1px solid white",
                       }}
                       className={`inline-flex p-1 rounded-full`}

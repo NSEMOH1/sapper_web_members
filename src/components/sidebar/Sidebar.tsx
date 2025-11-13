@@ -190,7 +190,7 @@ const SideBar = ({ children }: { children: ReactNode }) => {
           top: 0,
           left: 0,
           bottom: 0,
-          background: "#6A9819",
+          background: "#6A7814",
           zIndex: 30,
           boxShadow: "-3px 0 5px 0 #555",
         }}
@@ -231,7 +231,7 @@ const SideBar = ({ children }: { children: ReactNode }) => {
               <p className="font-bold">
                 {member?.first_name} {member?.last_name}
               </p>
-              <p className="text-xs text-gray-500">Member</p>
+              <p className="text-xs text-white">Member</p>
             </>
           )}
         </div>

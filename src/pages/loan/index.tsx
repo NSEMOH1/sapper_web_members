@@ -14,7 +14,7 @@ const Loan = () => {
   return (
     <div className="mb-8">
       <p
-        className="text-[#0692DE] flex gap-2 items-center justify-end cursor-pointer"
+        className="text-[#6A7814] flex gap-2 items-center justify-end cursor-pointer"
         onClick={() => navigate(routes.loan.enrollment_status)}
       >
         <RefreshCcw />
@@ -22,7 +22,7 @@ const Loan = () => {
       </p>
       <div className="flex gap-8 mt-4 flex-col md:flex-row">
         <div className="flex-1">
-          <div className="p-4 bg-[#128DC1] text-white rounded-2xl h-[150px]">
+          <div className="p-4 bg-[#6A7814] text-white rounded-2xl h-[150px]">
             <p className="pb-3">Total Loan Balance</p>
             <div>
               <p className="text-2xl font-bold">₦{summary.totalOutstanding}</p>
