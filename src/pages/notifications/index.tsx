@@ -29,7 +29,6 @@ const Notifications = () => {
   const handleNotificationClick = (notification: any) => {
     setSelectedNotification(notification);
 
-    // Auto-mark as read when clicked (if unread)
     if (notification.status === "UNREAD") {
       markAsRead(notification.id).catch(console.error);
     }
@@ -41,7 +40,6 @@ const Notifications = () => {
         title={`Notifications ${unreadCount > 0 ? `(${unreadCount})` : ""}`}
       />
       <Flex direction={{ base: "column", md: "row" }} height="100vh">
-        {/* Notification List */}
         <Box
           width={{ base: "100%", md: "50vw" }}
           bg="white"
@@ -149,7 +147,6 @@ const Notifications = () => {
           </Box>
         </Box>
 
-        {/* Notification Detail View */}
         <Box width={{ base: "100%", md: "80vw" }} ml={{ base: 0, md: 4 }}>
           <Box bg="white" rounded-lg shadow-xl mb={7} p={4}>
             <Text fontWeight="semibold" pb={4}>

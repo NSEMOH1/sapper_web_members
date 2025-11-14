@@ -39,13 +39,11 @@ interface NotificationState {
 export const useNotificationStore = create<NotificationState>()(
     devtools(
         (set, get) => ({
-            // Initial state
             notifications: [],
             unreadCount: 0,
             isLoading: false,
             selectedNotification: null,
 
-            // Actions
             setNotifications: (notifications) => {
                 const unreadCount = notifications.filter(
                     (n) => n.status === "UNREAD"
@@ -80,7 +78,6 @@ export const useNotificationStore = create<NotificationState>()(
 
             markAsUnread: async (notificationId) => {
                 try {
-                    // You'll need to create this endpoint
                     const response = await api.put(
                         `/api/notifications/${notificationId}/unread`
                     );
